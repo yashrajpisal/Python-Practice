@@ -1,0 +1,13 @@
+
+
+
+x = int(input("Enter num1: "))
+y = int(input("Enter num2: "))
+
+while x <= y:
+    x+=1
+    if x % 5 == 0:
+        break
+    print(x)
+    #x+=1
+print("End Code")
