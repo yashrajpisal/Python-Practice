@@ -1,0 +1,10 @@
+
+
+x = 30
+def fun():
+    global x
+    x=x+1
+    print("in fun:",x)
+print(x)
+fun()
+print(x)
